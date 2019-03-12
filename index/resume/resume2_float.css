@@ -1,0 +1,25 @@
+@import url(resume1.css);
+
+body>div {
+    background: rgb(75, 147, 255);
+}
+
+h1 {
+    color: #fff;
+}
+
+#h1 {
+    float: left;
+    padding: 3em;
+
+}
+
+#bdy {
+    margin-left: 10em;
+    padding: 1em;
+    background: #fff;
+}
+
+#bdy>div:nth-of-type(1)>h2{
+    margin-top: 0;
+}

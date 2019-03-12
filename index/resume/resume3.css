@@ -1,6 +1,6 @@
 @import url(resume1.css);
 
-body {
+body>div {
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+    flex-shrink: 0;
     padding: 1em;
     margin: 0;
     background-color: rgb(187, 208, 255);
