@@ -1,0 +1,73 @@
+/* General setup */
+
+html {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* info-box setup */
+
+.info-box {
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+/* styling info-box tabs */
+
+.info-box ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info-box li {
+    float: left;
+    list-style-type: none;
+    width: 150px;
+}
+
+.info-box li span {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    line-height: 3;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+.info-box li span:focus,
+.info-box li span:hover,
+.info-box li span.active {
+    background-color: #a60000;
+    color: white;
+}
+
+/* styling info-box panels */
+
+.info-box .panels {
+    clear: both;
+    position: relative;
+    height: 352px;
+}
+
+.info-box article {
+    background-color: #a60000;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    height: 352px;
+    top: 0;
+    left: 0;
+}
+
+.info-box .active-panel {
+    z-index: 1;
+}

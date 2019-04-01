@@ -1,45 +1,45 @@
 @import url(resume1.css);
 
 body>div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    color: #fff;
+  color: #fff;
 }
 
 #h1 {
-    padding-left: 2em;
-    background-color: rgb(75, 147, 255);
+  padding-left: 2em;
+  background-color: rgb(75, 147, 255);
 }
 
 #bdy>div {
-    display: flex;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    flex-shrink: 0;
-    padding: 1em;
-    margin: 0;
-    background-color: rgb(187, 208, 255);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-color: rgb(255, 255, 255);
+  flex-shrink: 0;
+  padding: 1em;
+  margin: 0;
+  background-color: rgb(187, 208, 255);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(255, 255, 255);
 }
 
 #bdy>div:nth-last-of-type(1)>h2 {
-    border-bottom-width: 0px;
+  border-bottom-width: 0px;
 }
 
 h2+div {
-    flex-grow: 1;
-    padding: 1em;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-color: rgb(187, 208, 255);
+  flex-grow: 1;
+  padding: 1em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: rgb(187, 208, 255);
 }

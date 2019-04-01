@@ -1,14 +1,14 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 dt {
-    color: blue;
-    font-family: "courier new";
+  color: blue;
+  font-family: "courier new";
 }
 
 li {
-    color: blue;
-    font-family: monospace;
-    font-size: 1em;
+  color: blue;
+  font-family: monospace;
+  font-size: 1em;
 }

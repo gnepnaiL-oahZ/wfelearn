@@ -1,22 +1,22 @@
 @import url(resume1.css);
 
 body>div {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    color: #fff;
+  color: #fff;
 }
 
 #h1 {
-    padding: 3em;
-    background-color: rgb(75, 147, 255);
+  padding: 3em;
+  background-color: rgb(75, 147, 255);
 }
 
 #bdy {
-    padding: 1em;
+  padding: 1em;
 }
 
 #bdy>div:nth-of-type(1)>h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
