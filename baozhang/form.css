@@ -1,0 +1,80 @@
+form {
+  width: 30em;
+  margin-left: 100px;
+}
+
+button{
+  
+  box-sizing: content-box;
+}
+
+form>div {
+  padding: 10px;
+}
+
+#form>h2 {
+  padding: 20px;
+}
+
+.input_item>* {
+  display: inline-block;
+  height: 2em;
+}
+
+label+* {
+  width: 15em;
+  padding: 0;
+  border: darkgray solid 1px;
+  border-radius: 3px;
+}
+
+label {
+  width: 10em;
+  text-align: right;
+  margin-right: 1em;
+}
+
+input {
+  background-color: whitesmoke;
+}
+
+button {
+  color: white;
+  border: solid steelblue 1px;
+  background-color: steelblue;
+  margin-bottom: 1em;
+}
+
+button:hover{
+  box-shadow: 0 0 5px 1px steelblue;
+  text-shadow: 0 0 2px white;
+}
+
+#forget_pswd {
+  font: 0.8em sans-serif;
+  color: royalblue;
+  text-decoration: none;
+}
+
+#forget_pswd:hover {
+  text-shadow: 0 0 1px royalblue;
+}
+
+
+#searchbox{
+  padding-top:30px ;
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#search_input{
+  width: 600px;
+  height: 50px;
+  border: darkgray solid 1px;
+}
+
+#search_btn{
+  width: 100px;
+  height: 50px;
+}

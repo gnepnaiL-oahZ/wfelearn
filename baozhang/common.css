@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+#top-nav {
+  border-bottom: 2px solid lightgrey;
+}
+
+#header-nav {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
+#top-nav ul {
+  text-align: right;
+  font-size: 10px;
+}
+
+#top-nav ul,
+#header-nav ul {
+  width: 1024px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+#top-nav li,
+#header-nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+#top-nav a,
+#header-nav a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#top-nav a:hover,
+#header-nav a:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+main {
+  box-shadow: 0 0 10px 1px darkgray;
+  width: 1024px;
+  margin: 0 auto;
+}
