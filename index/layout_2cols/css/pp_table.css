@@ -1,0 +1,8 @@
+#left,
+#right {
+  display: table-cell;
+}
+
+#left {
+  width: 30%;
+}
