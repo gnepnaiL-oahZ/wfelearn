@@ -1,5 +1,5 @@
 {
-  let btns = document.getElementsByTagName("button");
+  let btns = document.getElementById("change_css").getElementsByTagName("button");
   let css = document.createElement("link");
   css.rel="stylesheet";
   css.href="";
