@@ -1,8 +1,9 @@
-    #left {
-      position: absolute;
-      width: 300px;
-    }
+#left {
+  position: absolute;
+  width: 300px;
+}
 
-    #right {
-      margin-left: 300px;
-    }
+#right {
+  overflow: hidden;
+  margin-left: 300px;
+}

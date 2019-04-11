@@ -4,5 +4,6 @@
 }
 
 #right {
+  overflow: auto;
   margin-left: 300px;
 }

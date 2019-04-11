@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  /* align-items: flex-start; */
+}
+
+#left {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+#right {
+  flex-grow: 1;
+}

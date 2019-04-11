@@ -1,0 +1,12 @@
+main{
+  position: relative;
+}
+#left {
+  width: 30%;
+  position: absolute;
+}
+
+#right {
+  overflow: auto;
+  margin-left: 30%;
+}
