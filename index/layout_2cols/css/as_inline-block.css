@@ -8,6 +8,6 @@
 #right {
   width: 300px;
   display: inline-block;
-  margin-left: -1ex;
+  margin-left: -.3em;
   vertical-align: top;
 }
