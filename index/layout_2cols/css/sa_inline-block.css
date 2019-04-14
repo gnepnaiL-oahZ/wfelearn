@@ -1,0 +1,13 @@
+#left {
+  width: 300px;
+  display: inline-block;
+  overflow: auto;
+  vertical-align: top;
+}
+
+#right {
+  margin-left: -0.3em;
+  width: calc(100% - 300px);
+  display: inline-block;
+  vertical-align: top;
+}

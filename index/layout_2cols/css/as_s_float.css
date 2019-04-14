@@ -1,9 +1,8 @@
 #left {
-  position: absolute;
+  float: right;
   width: 300px;
 }
 
 #right {
   overflow: auto;
-  margin-left: 300px;
 }

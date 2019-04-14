@@ -1,0 +1,9 @@
+#left {
+  width: calc(100% - 300px);
+  float: left;
+}
+
+#right {
+  overflow: auto;
+  width: 300px;
+}
